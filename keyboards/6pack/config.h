@@ -23,12 +23,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x1337
 #define PRODUCT_ID      0x6007
-#define MANUFACTURER    Ikno
-#define PRODUCT         6pack
-#define DESCRIPTION     6 key macro pad with Rotary Encoder support
+#define MANUFACTURER    ibiza
+#define PRODUCT         15lov
+#define DESCRIPTION     15 key with Rotary Encoder support
 
 /* key matrix size */
-#define MATRIX_ROWS 2
+#define MATRIX_ROWS 5
 #define MATRIX_COLS 3
 
 /* COL2ROW or ROW2COL */
