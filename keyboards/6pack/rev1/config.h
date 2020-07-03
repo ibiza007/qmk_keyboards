@@ -23,8 +23,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEVICE_VER      0x0001
 
 /* Let's Macro V2 pin-out */
-#define MATRIX_ROW_PINS { F6, F7 }
-#define MATRIX_COL_PINS { D1, D0, B1 }
+#define MATRIX_ROW_PINS { F6, F7, B3, B2, B6 }
+#define MATRIX_COL_PINS { D1, D0, D4 }
 #define UNUSED_PINS
 
 #define DIODE_DIRECTION COL2ROW
