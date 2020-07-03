@@ -31,13 +31,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `--------------------'
  */
 [_QWERTY] = LAYOUT( \
-    KC_MEDIA_SELECT,    KC_MEDIA_STOP,    KC_AUDIO_MUTE, \
-    KC_MEDIA_PREV_TRACK,  KC_MEDIA_NEXT_TRACK,          LT(_FUNC, KC_MEDIA_PLAY_PAUSE) \
+    KC_ESCAPE,    KC_F1,    KC_F2,    KC_F3,    KC_F4, \
+    KC_ESCAPE,    KC_F5,    KC_F6,    KC_F7,    KC_F8, \
+    KC_ESCAPE,    KC_F9,    KC_F10,    KC_F11,    KC_F12 \
 ),
 
 [_FUNC] = LAYOUT( \
-    RESET,      _______,            _______, \
-    _______,    KC_MEDIA_SELECT,    _______ \
+    RESET,      _______,            _______,      _______,            _______, \
+    _______,      _______,            _______,      _______,            _______, \                 
+    KC_MEDIA_SELECT,      _______,            _______,      _______,    _______ \
 ),
 
 
